@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-web-hw5-web-socket-aiohttp"
+version = "0.1.0"
+description = ""
+authors = ["Kirienko-Alyona <ladybird.miami@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_web_hw5_web_socket_aiohttp"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+names = "^0.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
